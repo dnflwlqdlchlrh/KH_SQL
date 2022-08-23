@@ -12,3 +12,5 @@ GRANT CREATE SESSION TO suser1;
 
 -- 테이블 스페이스 사용 권한 부여
 ALTER USER suser1 quota 10M ON USERS;
+
+SELECT * FROM DEPARTMENTS; 

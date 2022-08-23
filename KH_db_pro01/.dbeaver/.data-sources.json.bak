@@ -33,6 +33,37 @@
 				},
 				"auth-model": "oracle_native"
 			}
+		},
+		"oracle_thin-18285433162-6cd79a64c2c83776": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "ORCL-suser1",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "ORCL",
+				"url": "jdbc:oracle:thin:@y6ylrnzeyqexauy8_medium?TNS_ADMIN=C:\\\\Users\\\\USER1\\\\eclipse\\\\Oracle\\\\Wallet_Y6YLRNZEYQEXAUY8",
+				"home": "C:\\Users\\USER1\\AppData\\Local\\Temp\\deinstall2022-07-13_03-34-28PM",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-connection-type@": "CUSTOM",
+					"show-only-one-schema@": "false",
+					"@dbeaver-check-schema-content@": "false",
+					"@dbeaver-always-show-dba@": "false",
+					"@dbeaver-always-use-dba-views@": "false",
+					"@dbeaver-meta-use-sys-schema@": "false",
+					"@dbeaver-meta-use-simple-constraints@": "false",
+					"@dbeaver-use-rule-hint@": "false",
+					"@dbeaver-use-meta-optimizer@": "true",
+					"@dbeaver-meta-use-alternative-table-query@": "false",
+					"oracle.meta-search-in-synonyms": "false",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native",
+				"handlers": {}
+			}
 		}
 	},
 	"connection-types": {
